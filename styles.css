@@ -1,0 +1,45 @@
+body {
+    background-color: pink;
+    background-image: url("https://media.tenor.com/pQZ0uVs1uv8AAAAi/butterfly-yellow.gif");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: small;
+    shape-image-threshold: calc(absolute);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    color: red;         
+    overflow: hidden; 
+}
+.painel {
+    margin: auto;
+    background-color: pink;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+#Sim {
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-left: -75px;
+}
+
+#Nao {
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    transition: all 1s ease-in-out; 
+
+}
